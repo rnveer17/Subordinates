@@ -38,7 +38,7 @@ cargo run --release --bin bench
 
 **Results(N=200000):**
 
-| n | Greedy (ms) | Pattern (ms) | Diff (ms) |
+| n | Recursive (ms) | Iterative (ms) | Diff (ms) |
 |---|---|---|---|
 | 200000 | 1.70 | 4.30 | -2.60 |
 

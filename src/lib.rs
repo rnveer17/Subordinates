@@ -1,6 +1,3 @@
-// ============================================================
-// Subordinates – Two Distinct Implementations
-// ============================================================
 
 // ============================================================
 // Approach 1: Recursive DFS
@@ -28,7 +25,7 @@ pub fn subordinates_dfs(children: &[Vec<usize>]) -> Vec<usize> {
 }
 
 // ============================================================
-// Approach 2: Iterative DFS (Stack-based) – Safe for deep trees
+// Approach 2: Iterative DFS
 // ============================================================
 // Uses an explicit stack to avoid recursion overhead.
 // Processes nodes in post-order to compute subtree sizes.
