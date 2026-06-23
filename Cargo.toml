@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2018"
 description = """Subordinates solution with recursive and iterative DFS."""
 authors = [ "Ranveer <ranveermaan1702@gmail.com>" ]
+default-run = "subordinates"
 
 [dependencies]
 
