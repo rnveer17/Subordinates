@@ -36,7 +36,7 @@ The benchmark runs both algorithms on **all CSES test cases**. It reads each `.i
 cargo run --release --bin bench
 ```
 
-**Results(N=200000):**
+**Results(N=200,000):**
 
 | n | Recursive (ms) | Iterative (ms) | Diff (ms) |
 |---|---|---|---|
@@ -70,7 +70,7 @@ The recursive call stack is contiguous in memory, which is cache‑friendly. The
 
 ### Run the main program
 ```bash
-echo "7" | cargo run
+cargo run
 ```
 
 ### Run the benchmark
@@ -81,6 +81,4 @@ cargo run --release --bin bench
 ### Run tests
 ```bash
 cargo test
-```
-
 ```
